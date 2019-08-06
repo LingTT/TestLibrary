@@ -20,10 +20,10 @@ allprojects {
         maven { url "https://jitpack.io" } // add this
     }
 }
-//task clean(type: Delete) {
-//    delete rootProject.buildDir
-//}
-//// 指定编码
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+// 指定编码
 //tasks.withType(JavaCompile) {
 //    options.encoding = "UTF-8"
 //}
